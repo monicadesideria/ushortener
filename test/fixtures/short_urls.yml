@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: short_urls
+#
+#  id            :integer          not null, primary key
+#  original_url  :string
+#  is_custom_url :boolean          default(FALSE)
+#  short_uid     :string
+#  created_at    :datetime         not null
+#  updated_at    :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  original_url: MyString
+  is_custom_url: false
+  short_uid: MyString
+
+two:
+  original_url: MyString
+  is_custom_url: false
+  short_uid: MyString
